@@ -26,78 +26,11 @@ This project is an excellent addition to your resume, showcasing your skills in 
 - **Task Scheduling**: Inngest
 - **UI Components**: Shadcn UI
 
-## 📂 Project Structure
 
-```
-📦 ai-career-coach
-├── 📂 src
-│   ├── 📂 components    # Reusable UI components
-│   ├── 📂 pages         # Next.js pages
-│   ├── 📂 api          # Backend API routes
-│   ├── 📂 utils        # Helper functions
-│   ├── 📂 styles       # Global styles with Tailwind CSS
-├── 📜 package.json     # Dependencies and scripts
-├── 📜 prisma/schema.prisma  # Database schema
-├── 📜 .env             # Environment variables
-```
 
-## 🏗️ Installation & Setup
 
-### 1️⃣ Clone the repository
 
-```bash
-git clone https://github.com/your-username/ai-career-coach.git
-cd ai-career-coach
-```
 
-### 2️⃣ Install dependencies
-
-```bash
-yarn install  # or npm install
-```
-
-### 3️⃣ Set up environment variables
-
-Create a `.env` file and configure the following variables:
-
-```env
-DATABASE_URL="your-neondb_url"
-NEXT_PUBLIC_CLERK_FRONTEND_API="your-clerk-api-key"
-CLERK_API_KEY="your-clerk-secret-key"
-GEMINI_API_KEY="your-gemini-api-key"
-INNGEST_API_KEY="your-inngest-api-key"
-```
-
-### 4️⃣ Migrate the database
-
-```bash
-npx prisma migrate dev --name init
-```
-
-### 5️⃣ Start the development server
-
-```bash
-yarn dev  # or npm run dev
-```
-
-The app will be running at `http://localhost:3000`
-
-## 🎯 Future Enhancements
-
-- Add AI-driven interview preparation.
-- Implement user dashboards with career growth analytics.
-- Integrate more job APIs for broader job listings.
-- Support multiple languages for global accessibility.
-
-## 🤝 Contributing
-
-Contributions are welcome! If you’d like to improve this project, feel free to fork the repository and submit a pull request.
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
----
 
 🚀 **Star this repo** if you find it helpful! Happy coding! 😃
 
