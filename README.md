@@ -32,7 +32,7 @@ This project is an excellent addition to your resume, showcasing your skills in 
 
 
 
-🚀 **Star this repo** if you find it helpful! Happy coding! 😃
+
 
 Abhishek Kumar
 
